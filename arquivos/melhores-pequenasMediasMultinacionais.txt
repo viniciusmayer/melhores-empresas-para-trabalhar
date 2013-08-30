@@ -1,0 +1,179 @@
+1. Google
+519 empregados
+www.google.com
+Indústrias: Information Technology - Internet Service Provider
+propriedade: privada
+
+2. Ticket
+698 empregados
+www.ticket.com.br
+Indústrias: Professional Services
+propriedade: privada
+
+3. SAS Brasil
+165 empregados
+www.sas.com/br
+Indústrias: Information Technology - Software
+propriedade: privada
+
+4. Duke Energy
+324 empregados
+www.duke- energy.com
+Indústrias: Manufacturing & Production - Energy Distribution
+propriedade: privada
+
+5. Microsoft
+760 empregados
+www.microsoft.com/brasil
+Indústrias: Information Technology - Software
+propriedade: privada
+
+6. Ranaissance São Paulo Hotel
+426 empregados
+www.marriott.com
+Indústrias: Hospitality – Hotel - Resort
+propriedade: privada
+
+7. Diageo
+427 empregados
+www.diageo.com
+Indústrias: Manufacturing & Production - Food products - Beverages
+propriedade: privada
+
+8. Genzyme
+102 empregados
+www.genzyme.com.br
+Indústrias: Biotechnology & Pharmaceuticals 
+propriedade: privada
+
+9. Cisco do Brasil
+469 empregados
+www.cisco.com
+Indústrias: Information Technology - Internet Service Provider
+propriedade: privada
+
+10. Coca-Cola Recofarma
+209 empregados
+www.cocacolabrasil.com.br
+Indústrias: Manufacturing & Production - Food products - Beverages
+propriedade: privada
+
+Ace Schmersal
+269 empregados
+www.schmersal.com.br
+Indústrias: Manufacturing & Production - Electronics
+propriedade: privada
+
+Boehringer Ingelheim
+756 empregados
+www.boehringer-ingelheim.com.br
+Indústrias: Biotechnology & Pharmaceuticals
+propriedade: privada
+
+Chemtech
+917 empregados
+www.chemtech.com.br
+Indústrias: Industrial Services - Engineering
+propriedade: privada
+
+Dow Corning do Brasil
+159 empregados
+www.dowcorning.com.br
+Indústrias: Manufacturing & Production
+propriedade: privada
+
+EMC Computer Systems do Brasil
+-
+http://brazil.emc.com
+-
+-
+
+Endesa Geração
+239 empregados
+www.endesageracaobrasil.com.br
+Indústrias: Manufacturing & Production - Energy
+propriedade: privada
+
+FedEx Express
+677 empregados
+www.fedex.com
+Indústrias: Transportation - Package & Freight transport
+propriedade: privada
+
+JBT FoodTech
+271 empregados
+www.jbtfoodTech.com
+Indústrias: Manufacturing & Production
+propriedade: privada
+
+JW Marriott
+250 empregados
+www.marriott.com/riomc
+Indústrias: Hospitality - Food and Beverage Service
+propriedade: privada
+
+Mary Kay
+181 empregados
+www.marykay.com.br
+Indústrias: Biotechnology & Pharmaceuticals - Biotechnology
+propriedade: privada
+
+Novo Nordisk Farmacêutica do Brasil
+202 empregados
+www.novonordisk.com.br
+Indústrias: Biotechnology & Pharmaceuticals - Pharmaceuticals
+propriedade: privada
+
+Novozymes
+226 empregados
+www.novozymes.com
+Indústrias: Biotechnology & Pharmaceuticals - Biotechnology
+propriedade: privada
+
+Prudential do Brasil
+282 empregados
+www.prudentialdobrasil.com.br
+Indústrias: Financial Services & Insurance - Life Insurance
+propriedade: privada
+
+Roche Diagnóstica do Brasil
+350 empregados
+www.roche.com.br
+Indústrias: Biotechnology & Pharmaceuticals - Biotechnology
+propriedade: privada
+
+RSA Seguros
+337 empregados
+www.rsaseguros.com.br
+Indústrias: Financial Services & Insurance - General Insurance
+propriedade: privada
+
+SAP Labs Latin America
+548 empregados
+www.sap.com/brazil
+Indústrias: Information Technology - Software
+propriedade: privada
+
+SCJohnson
+520 empregados
+www.scjohnson.com.br
+Indústrias: Manufacturing & Production - Personal and Household goods
+propriedade: privada
+
+Symantec do Brasil
+244 empregados
+www.symantec.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+
+ThoughtWorks
+119 empregados
+www.thoughtworks.com
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+
+Zambon
+220 empregados
+www.zambon.com.br
+Indústrias: Biotechnology & Pharmaceuticals - Pharmaceuticals
+propriedade: privada

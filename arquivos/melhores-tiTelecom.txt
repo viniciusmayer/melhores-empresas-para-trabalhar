@@ -1,0 +1,300 @@
+1. Google
+519 empregados
+www.google.com
+Indústrias: Information Technology - Internet Service Provider
+propriedade: privada
+2. Acesso Digital
+108 empregados
+www.acessodigital.com.br
+Indústrias: Information Technology
+propriedade: privada
+3. Radix
+276 empregados
+www.radixeng.br
+Indústrias: Information Technology - Software
+propriedade: privada
+4. SAS BRASIL
+165 empregados
+www.sas.com/br
+Indústrias: Information Technology
+propriedade: privada
+5. Microsoft
+760 empregados
+www.microsoft.com/brasil
+Indústrias: Information Technology - Software
+propriedade: privada
+6. Telefônica Vivo
+19467 empregados
+www.vivo.com.br
+Indústrias: Telecommunications
+propriedade: privada
+7. Dextra
+129 empregados
+www.dextra.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+8. Dell
+3706 empregados
+www.dell.com.br
+Indústrias: Information Technology
+propriedade: privada
+9. Sabre Holdings
+93 empregados
+www.sabre.com
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+10. Cisco
+469 empregados
+www.cisco.com
+Indústrias: Information Technology - Internet Service Provider
+propriedade: privada
+11. TOUCH TECNOLOGIA
+125 empregados
+www.touchhealth.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+12. ELO GROUP
+140 empregados
+www.elogroup.com.br
+Indústrias: Professional Services - Consulting Engineering
+propriedade: privada
+13. ThoughtWorks
+119 empregados
+www.thoughtworks.com
+Indústrias: Information Technology - Software
+propriedade: privada
+14. SYDLE
+106 empregados
+www.sydle.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+15. Visagio
+245 empregados
+www.visagio.com.br
+Indústrias: Professional Services - Consulting Engineering
+propriedade: privada
+16. Ibyte
+624 empregados
+www.ibyte.com.br
+Indústrias: Retail - Computers/electronics
+propriedade: privada
+17. ilegra
+132 empregados
+www.ilegra.com.br
+Indústrias: Information Technology
+propriedade: privada
+18. Opus Software
+75 empregados
+www.opus-software.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+19. EMC Computer Systems do Brasil
+424 empregados
+brazil.emc.com
+Indústrias: Information Technology - Hardware
+propriedade: privada
+20. VoxAge Serviços Interativos
+70 empregados
+www.voxage.com.br
+Indústrias: Information Technology
+propriedade: privada
+21. Walar IT Business
+230 empregados
+www.walar.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+22. IVIA
+286 empregados
+www.ivia.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+23. Chemtech
+917 empregados
+www.chemtech.com.br
+Indústrias: Industrial Services - Engineering
+propriedade: privada
+24. ClearSale
+414 empregados
+www.clearsale.com.br
+Indústrias: Information Technology
+propriedade: privada
+25. SAP Labs Latin America
+548 empregados
+www.sap.com/brazil
+Indústrias: Information Technology - Software
+propriedade: privada
+26. Sankhya Gestão de Negócios
+279 empregados
+www.sankhya.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+27. Take.net
+115 empregados
+www.take.net/pt
+Indústrias: Information Technology
+propriedade: privada
+28. ALGAR TELECOM
+1816 empregados
+www.algartelecom.com.br
+Indústrias: Telecommunications
+propriedade: privada
+29. Metadados
+93 empregados
+www.metadados.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+30. Symantec do Brasil
+244 empregados
+www.symantec.com.br
+Indústrias: Information Technology
+propriedade: privada
+31. Teleperformance
+17409 empregados
+www.teleperformance.com.br
+Indústrias: Telecommunications
+propriedade: privada
+32. SERASA EXPERIAN
+2712 empregados
+www.serasaexperian.com.br
+Indústrias: Financial Services & Insurance - Banking/Credit Services
+propriedade: privada
+33. LIGBRASIL
+169 empregados
+-
+Indústrias: Telecommunications
+propriedade: privada
+34. Microcity
+341 empregados
+www.microcity.com.br
+Indústrias: Information Technology
+propriedade: privada
+35. TELEFONICA GLOBAL SOLUTION DO BRASIL
+50 empregados
+www.multinationalsolutions.telefonica.com
+Indústrias: Telecommunications
+propriedade: privada
+36. Daitan Group
+113 empregados
+www.daitangroup.com
+Indústrias: Telecommunications
+propriedade: privada
+37. BExpert
+80 empregados
+www.bexpert.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+38. Instituto de Pesquisas Eldorado
+511 empregados
+www.eldorado.org.br
+Indústrias: Information Technology
+propriedade: não-lucrativa
+39. SYNAPSIS BRASIL
+186 empregados
+WWW.SYNAPSIS-IT.COM
+Indústrias: Information Technology
+propriedade: privada
+40. Iteris
+82 empregados
+www.iteris.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+41. e-Core
+115 empregados
+www.ecore.com.br
+Indústrias: Information Technology
+propriedade: privada
+42. BgmRodotec Tecnologia e Informática
+227 empregados
+www.bgmrodotec.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+43. Focco Sistemas de Gestão
+182 empregados
+www.focco.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+44. Conquest One
+134 empregados
+www.conquestone.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+45. Grupo i9
+182 empregados
+www.i9tec.com.br
+Indústrias: Information Technology
+propriedade: privada
+46. Arbit
+72 empregados
+www.arbit.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+47. Service IT Solutions
+150 empregados
+www.service.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+48. Oracle
+1607 empregados
+www.oracle.com
+Indústrias: Information Technology
+propriedade: privada
+49. GVDASA SISTEMAS
+116 empregados
+WWW.GVDASA.COM.BR
+Indústrias: Information Technology - Software
+propriedade: privada
+50. MATERA Systems
+263 empregados
+www.matera.com
+Indústrias: Information Technology - Software
+propriedade: privada
+51. Ci&T
+1324 empregados
+www.ciandt.com
+Indústrias: Information Technology
+propriedade: privada
+52. GVT
+17292 empregados
+www.gvt.com.br
+Indústrias: Telecommunications
+propriedade: privada
+53. CINQ TECHNOLOGIES
+206 empregados
+www.cinq.com.br
+Indústrias: Information Technology
+propriedade: privada
+54. DATACOPER
+122 empregados
+www.datacoper.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+55. 2s Inovações Tecnológicas
+106 empregados
+www.2s.com.br
+Indústrias: Information Technology - IT Consulting
+propriedade: privada
+56. LG Sistemas
+357 empregados
+www.lg.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+57. DB1 IT
+117 empregados
+www.db1.com.br
+Indústrias: Information Technology - Software
+propriedade: privada
+58. ALOG Data Centers do Brasil
+496 empregados
+www.alog.com.br
+Indústrias: Information Technology - Internet Service Provider
+propriedade: privada
+59. Atento Brasil
+63853 empregados
+www.atento.com.br
+Indústrias: Telecommunications
+propriedade: privada
+60. INTELBRAS
+1542 empregados
+www.intelbras.com.br
+Indústrias: Manufacturing & Production - Electronics
+propriedade: privada
