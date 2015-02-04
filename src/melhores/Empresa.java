@@ -13,11 +13,41 @@ public class Empresa {
 	private String industria;
 	private String propriedade;
 	private Integer votos;
+	private Boolean entreAs10Melhores;
+	private Boolean entreAs20Melhores;
+	private Boolean entreAs30Melhores;
 
 	public Empresa() {
 		this.colocacoes = new ArrayList<>();
-		this.votos = 0;
+		this.votos = 1;
 		this.listas = new ArrayList<>();
+		this.entreAs10Melhores = false;
+		this.entreAs20Melhores = false;
+		this.entreAs30Melhores = false;
+	}
+
+	public Boolean getEntreAs20Melhores() {
+		return entreAs20Melhores;
+	}
+
+	public void setEntreAs20Melhores(Boolean entreAs20Melhores) {
+		this.entreAs20Melhores = entreAs20Melhores;
+	}
+
+	public Boolean getEntreAs30Melhores() {
+		return entreAs30Melhores;
+	}
+
+	public void setEntreAs30Melhores(Boolean entreAs30Melhores) {
+		this.entreAs30Melhores = entreAs30Melhores;
+	}
+
+	public Boolean getEntreAs10Melhores() {
+		return entreAs10Melhores;
+	}
+
+	public void setEntreAs10Melhores(Boolean entreAs10Melhores) {
+		this.entreAs10Melhores = entreAs10Melhores;
 	}
 
 	public List<String> getColocacoes() {
@@ -86,6 +116,13 @@ public class Empresa {
 
 	public void addColocacao(String colocacao) {
 		this.colocacoes.add(colocacao);
+		if (new Integer(colocacao) < 11){
+			this.entreAs10Melhores = true;
+		} else if (new Integer(colocacao) < 21){
+			this.entreAs20Melhores = true;
+		} else if (new Integer(colocacao) < 31){
+			this.entreAs30Melhores = true;
+		}
 	}
 	
 	public void addListas(List<ListaEnum> listas) {
@@ -126,6 +163,14 @@ public class Empresa {
 			stringBuilder.append(lista.getNome());
 		}
 		stringBuilder.append(";");
+		stringBuilder.append(this.votos);
+		stringBuilder.append(";");
+		stringBuilder.append((this.entreAs10Melhores)?"Sim":"Nao");
+		stringBuilder.append(";");
+		stringBuilder.append((this.entreAs20Melhores)?"Sim":"Nao");
+		stringBuilder.append(";");
+		stringBuilder.append((this.entreAs30Melhores)?"Sim":"Nao");
+		stringBuilder.append(";");
 		stringBuilder.append(this.nome);
 		stringBuilder.append(";");
 		stringBuilder.append(this.site);
@@ -135,8 +180,6 @@ public class Empresa {
 		stringBuilder.append(this.industria);
 		stringBuilder.append(";");
 		stringBuilder.append(this.propriedade);
-		stringBuilder.append(";");
-		stringBuilder.append(this.votos);
 		stringBuilder.append("\n");
 		return stringBuilder.toString();
 	}

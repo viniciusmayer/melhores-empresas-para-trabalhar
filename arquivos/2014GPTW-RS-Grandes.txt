@@ -1,0 +1,53 @@
+1. DELL BRASIL
+3844 empregados
+www.dell.com.br
+Indústrias: Information Technology
+propriedade: privada
+
+2. JOHN DEERE
+2645 empregados
+www.johndeere.com.br
+Indústrias: Manufacturing & Production // Machinery and equipment
+propriedade: privada
+
+3. SESC/RS
+1552 empregados
+www.sesc-rs.com.br
+Indústrias: Social Services and Government Agencies // Human health and social work activities
+propriedade: privada
+
+4. NAVISTAR MERCOSUL
+3094 empregados
+www.mwm-international.com.br
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+5. AES SUL DISTRIBUIDORA GAÚCHA DE ENERGIA S.A.
+1480 empregados
+www.aessul.com.br
+Indústrias: Manufacturing & Production // Energy
+propriedade: privada
+
+6. SUSPENSYS SISTEMAS AUTOMOTIVOS
+1551 empregados
+www.suspensys.com.br
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+7. HOSPITAL MOINHOS DE VENTO
+3515 empregados
+www.hospitalmoinhos.org.br
+Indústrias: Health Care // Hospital
+propriedade: Non-profit
+
+8. COMERCIAL BUFFON COMBUSTÍVEIS E TRANSPORTES LTDA.
+1404 empregados
+www.buffon.com.br
+Indústrias: Manufacturing & Production // Gasoline/Retail Marketer
+propriedade: Private
+
+9. HOSPITAL MÃE DE DEUS
+2779 empregados
+www.maededeus.com.br
+Indústrias: Health Care // Hospital
+propriedade: Private

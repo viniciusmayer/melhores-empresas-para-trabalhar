@@ -1,0 +1,149 @@
+1. Google
+Google
+www.google.com
+Setor: Tecnologias de informação
+Listado em: Argentina, Brasil, Canadá, Estados Unidos da América, Índia, Japão
+
+2. SAS Institute
+SAS Institute
+www.sas.com
+Setor: Tecnologias de informação
+Listado em: Alemanha, Austrália, Bélgica, Brasil, Canadá, Coreia, Estados Unidos da América, Finlândia, França, Itália, México, Países Baixos, Polónia, Portugal
+
+3. NetApp
+NetApp
+www.netapp.com
+Setor: Tecnologias de informação | Gestão/Armazenamento de dados
+Listado em: Alemanha, Austrália, Austria, Canadá, China, Estados Unidos da América, França, Índia, Japão, Países Baixos, Reino Unido, Suíça
+
+4. W. L. Gore & Associates
+W.L. Gore & Associates
+www.gore.com
+Setor: Transformação e produção | Textêis
+Listado em: Alemanha, China, Coreia, Espanha, Estados Unidos da América, França, Itália, Reino Unido, Suécia
+
+5. Belcorp
+Belcorp
+www.belcorp.biz
+Setor: Comércio a retalho
+Listado em: Chile, Colômbia, Equador, México, Peru
+
+6. Microsoft
+Microsoft
+www.microsoft.com
+Setor: Tecnologias de informação | Software
+Listado em: Argentina, Austria, Bélgica, Brasil, Canadá, Chile, Colômbia, Dinamarca, Emirados Árabes Unidos, Finlândia, França, Alemanha, Espanha, Estados Unidos da América, Grécia, Índia, Irlanda, Itália, Japão, México, Norway, Países Baixos, Peru, Polónia, Portugal, Reino Unido, Suécia, Suíça
+
+7. Marriott
+Marriott
+www.marriott.com
+Setor: Hotelaria e turismo | Hotelaria
+Listado em: Austrália, Brasil (2), Emirados Árabes Unidos, Estados Unidos da América, Índia, México, Panamá, Peru, Turquia
+
+8. Monsanto
+Monsanto
+www.monsanto.com
+Setor: Biotecnologia e farmacêutica | Biotecnologia
+Listado em: Argentina, Bélgica, Brasil, China, França, Guatemala, Índia, México, Países Baixos
+
+9. Cisco
+Cisco
+www.cisco.com
+Setor: Tecnologias de informação
+Listado em: Arábia Saudita, Austria, Brasil, Chile, Espanha, Estados Unidos da América, Índia, Itália, México, Noruega, Portugal, Suíça
+
+10. American Express
+American Express
+www.americanexpress.com
+Setor: Banca e seguros | Serviços bancário/crédito
+Listado em: Argentina, Estados Unidos da América, Índia, Japão, México
+
+11. Scotiabank
+Scotiabank
+www.scotiabank.com
+Setor: Banca e seguros | Serviços bancário/crédito
+Listado em: Canadá, Chile, Costa Rica, El Salvador, México (3), Panamá, Peru, Porto Rico, República Dominicana
+
+12. SC Johnson
+SC Johnson
+www.scjohnson.com
+Setor: Transformação e produção | Bens pessoais e domésticos
+Listado em: Alemanha, Canadá, Chile, Itália, México, Polónia, Reino Unido, Venezuela
+
+13. Autodesk
+Autodesk
+www.autodesk.com
+Setor: Tecnologias de informação
+Listado em: Austrália, Canadá, China, Estados Unidos da América, Reino Unido, Suíça
+
+14. Telefónica
+Telefónica
+www.telefonica.com
+Setor: Telecomunicações
+Listado em: Alemanha, Argentina, Brasil, Colômbia, Espanha, Equador, México (2), Peru (2), Uruguai, Venezuela
+
+15. National Instruments
+National Instruments
+www.ni.com
+Setor: Transformação e produção
+Listado em: Alemanha, China, Coreia, Costa Rica, Estados Unidos da América, França, Itália, Japão, México, Reino Unido
+
+16. FedEx Corporation
+FedEx
+www.fedex.com
+Setor: Transportes
+Listado em: Bélgica, Emirados Árabes Unidos, Espanha, Índia, Irlanda, Itália, México, Suíça
+
+17. Atento
+Atento
+www.atento.com
+Setor: Serviços profissionais | Suporte telefónico/Centros de vendas
+Listado em: Argentina, Brasil, Chile, Colômbia, El Salvador, Espanha, Guatemala, México, Peru, Porto Rico, Uruguai
+
+18. EMC
+EMC
+www.emc.com
+Setor: Tecnologias de informação | Gestão/Armazenamento de dados
+Listado em: Alemanha, Arábia Saudita, Áustria, China, Emirados Árabes Unidos, Espanha, França, Índia, Irlanda, Itália, México, Países Baixos, Polónia, Reino Unido, Suécia, Suíça, Turquia
+
+19. Daimler Financial Services
+Daimler Financial Services
+www.daimler-financialservices.com
+Setor: Banca e seguros
+Listado em: Canadá, China, Coreia, Espanha, França, Japão, México, Polónia, Turquia
+
+20. Diageo
+Diageo
+www.diageo.com
+Setor: Transformação e produção | Bebidas
+Listado em: Alemanha, Argentina, Bélgica, Brasil, Canadá, Chile, Colômbia, Espanha, Grécia, Irlanda (2), Jamaica, México, Países Baixos, Reino Unido, Venezuela
+
+21. Hyatt
+Hyatt
+www.hyatt.com
+Setor: Hotelaria e turismo
+Listado em: Alemanha, Emirados Árabes Unidos, Estados Unidos da América, França, Índia, Reino Unido
+
+22. Mars
+Mars
+www.mars.com
+Setor: Transformação e produção | Produtos alimentares
+Listado em: Alemanha, Austrália, Bélgica, Brasil, Chile, Coreia, Dinamarca, Espanha (3), Estados Unidos da América, França, Grécia, Índia, Irlanda, Itália (2), Japão, Polónia, Portugal, Suécia, Suíça
+
+23. Accor
+Accor
+www.accor.com
+Setor: Hotelaria e turismo | Hotelaria
+Listado em: Argentina, Brasil, Chile, Equador, Índia, México, Peru, Reino Unido (2)
+
+24. eBay
+eBay
+www.ebay.com
+Setor: Tecnologias de informação
+Listado em: Alemanha, China, França, Irlanda, Reino Unido, Suíça
+
+25. The Coca-Cola Company
+Coca-Cola
+www.coca-colacompany.com
+Setor: Transformação e produção | Produtos alimentares/Bebidas
+Listado em: Argentina, Brasil, Chile, Peru, Turquia

@@ -16,24 +16,22 @@ public class Principal {
 
 	private static final String MELHORES_CONSOLIDADO_CSV = "arquivos/consolidado.csv";
 
-	private static final String MELHORES_TXT = "arquivos/melhores.txt";
-	private static final String MELHORES_TI_TELECOM_TXT = "arquivos/melhores-tiTelecom.txt";
-	private static final String MELHORES_PEQUENAS_MEDIAS_MULTINACIONAIS_TXT = "arquivos/melhores-pequenasMediasMultinacionais.txt";
-	private static final String MELHORES_PEQUENAS_MEDIAS_NACIONAL_TXT = "arquivos/melhores-pequenasMediasNacional.txt";
-
 	public static void main(String[] args) {
-		List<Empresa> melhores = processar(MELHORES_TXT, ListaEnum.MELHORES);
-		List<Empresa> melhoresTITelecom = processar(MELHORES_TI_TELECOM_TXT, ListaEnum.TI_TELECOM);
-		List<Empresa> melhoresPequenasMediasMultinacionais = processar(MELHORES_PEQUENAS_MEDIAS_MULTINACIONAIS_TXT,
-				ListaEnum.PEMES_MULTINACIONAL);
-		List<Empresa> melhoresPequenasMediasNacional = processar(MELHORES_PEQUENAS_MEDIAS_NACIONAL_TXT,
-				ListaEnum.PEMES_NACIONAL);
+		List<Empresa> BRGrandes = processar(ListaEnum.BR_GRANDES);
+		List<Empresa> BRMediasMultinational = processar(ListaEnum.BR_MEDIAS_MULTINACIONAL);
+		//List<Empresa> BRMediasNacional = processar(ListaEnum.BR_MEDIAS_NACIONAL);
+		List<Empresa> RSGrandes = processar(ListaEnum.RS_GRANDES);
+		//List<Empresa> RSMedias = processar(ListaEnum.RS_MEDIAS);
+		List<Empresa> BRTI = processar(ListaEnum.BR_TI);
 
 		Map<String, Empresa> empresas = new HashMap<String, Empresa>();
-		consolidar(empresas, melhores);
-		consolidar(empresas, melhoresTITelecom);
-		consolidar(empresas, melhoresPequenasMediasMultinacionais);
-		consolidar(empresas, melhoresPequenasMediasNacional);
+		consolidar(empresas, BRGrandes);
+		consolidar(empresas, BRMediasMultinational);
+		//consolidar(empresas, BRMediasNacional);
+		consolidar(empresas, RSGrandes);
+		//consolidar(empresas, RSMedias);
+		consolidar(empresas, BRTI);
+		
 		escrever(empresas, MELHORES_CONSOLIDADO_CSV);
 	}
 
@@ -49,9 +47,9 @@ public class Principal {
 		}
 	}
 
-	private static List<Empresa> processar(String arquivo, ListaEnum lista) {
+	private static List<Empresa> processar(ListaEnum lista) {
 		List<Empresa> empresas = new ArrayList<Empresa>();
-		File file = new File(arquivo);
+		File file = new File(lista.getArquivo());
 		FileReader fileReader = null;
 		try {
 			fileReader = new FileReader(file);
@@ -63,62 +61,30 @@ public class Principal {
 		BufferedReader bufferedReader = new BufferedReader(fileReader);
 
 		int linha = 0;
-		int contador = 0;
+		//int contador = 0;
 		Empresa empresa = new Empresa();
 		try {
 			String readLine = null;
 			while ((readLine = bufferedReader.readLine()) != null) {
-				if (linha == 5) {
+				if (linha == 6) {
 					empresa.addLista(lista);
 					empresas.add(empresa);
 					empresa = new Empresa();
 					linha = 0;
-					if (lista == ListaEnum.MELHORES || lista == ListaEnum.PEMES_MULTINACIONAL || lista == ListaEnum.PEMES_NACIONAL) {
-						continue;
-					}
 				}
 				switch (linha) {
-				case 0:
-					if (lista == ListaEnum.TI_TELECOM) {
-						String colocacao = readLine.substring(0, 2);
-						colocacao = colocacao.replace(".", "");
-						colocacao = colocacao.trim();
+				case 0:					
+					String[] split = readLine.split("\\.");
+					if (split.length > 1){
+						String colocacao = split[0].trim();
 						empresa.addColocacao(colocacao);
-
-						String nome = readLine.substring(2);
-						nome = nome.replace(".", "");
-						nome = nome.trim();
+						
+						String nome = split[1].trim();
 						empresa.setNome(nome);
-					} else if (lista == ListaEnum.MELHORES) {
-						if (contador < 20) {
-							String colocacao = readLine.substring(0, 2);
-							colocacao = colocacao.replace(".", "");
-							colocacao = colocacao.trim();
-							empresa.addColocacao(colocacao);
-
-							String nome = readLine.substring(2);
-							nome = nome.replace(".", "");
-							nome = nome.trim();
-							empresa.setNome(nome);
-						} else {
-							empresa.setNome(readLine);
-						}
 					} else {
-						if (contador < 10) {
-							String colocacao = readLine.substring(0, 2);
-							colocacao = colocacao.replace(".", "");
-							colocacao = colocacao.trim();
-							empresa.addColocacao(colocacao);
-
-							String nome = readLine.substring(2);
-							nome = nome.replace(".", "");
-							nome = nome.trim();
-							empresa.setNome(nome);
-						} else {
-							empresa.setNome(readLine);
-						}
+						String nome = split[0].trim();
+						empresa.setNome(nome);
 					}
-					contador += 1;
 					break;
 				case 1:
 					String empregados = empregados(readLine);
@@ -146,6 +112,8 @@ public class Principal {
 
 	private static void escrever(Map<String, Empresa> empresas, String arquivoDestino) {
 		StringBuilder stringBuilder = new StringBuilder();
+		String cabecalho = "colocacoes;listas;voto;10 melhores;20 melhores;30 melhores;empresa;site;numero funcionarios;industria;propriedade\n";
+		stringBuilder.append(cabecalho);
 		for (Empresa empresa : empresas.values()) {
 			stringBuilder.append(empresa.imprimir());
 		}

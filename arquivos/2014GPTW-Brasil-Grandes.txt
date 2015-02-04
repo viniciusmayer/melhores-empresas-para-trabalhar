@@ -1,0 +1,419 @@
+1. ELEKTRO
+3680 empregados
+www.elektro.com.br
+Indústrias: Manufacturing & Production // Energy Distribution
+propriedade: privada
+
+2. CATERPILLAR
+4521 empregados
+www.caterpillar.com.br
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+3. KIMBERLY-CLARK BRASIL
+3556 empregados
+www.kimberly-clark.com.br
+Indústrias: Manufacturing & Production // Personal and Household goods
+propriedade: privada
+
+4. GAZIN
+7075 empregados
+www.gazin.com.br
+Indústrias: Retail
+propriedade: privada
+
+5. MAGAZINE LUIZA
+23670 empregados
+www.magazineluiza.com.br
+Indústrias: Retail
+propriedade: privada
+
+6. ALCOA ALUMINIO
+5837 empregados
+www.alcoa.com.br
+Indústrias: Manufacturing & Production // Basic metals and fabricated metal products
+propriedade: privada
+
+7. EMBRAER
+17783 empregados
+www.embraer.com.br
+Indústrias: Aerospace
+propriedade: privada
+
+8. ACCOR
+9119 empregados
+www.accor.com
+Indústrias: Hospitality // Management
+propriedade: privada
+
+9. MONSANTO DO BRASIL
+2913 empregados
+www.monsanto.com.br
+Indústrias: Biotechnology & Pharmaceuticals // Biotechnology
+propriedade: privada
+
+10. LABORATÓRIO SABIN DE ANÁLISES CLÍNICAS
+1386 empregados
+www.sabin.com.br
+Indústrias: Health Care
+propriedade: privada
+
+11. TELEFONICA VIVO
+18509 empregados
+www.vivo.com.br
+Indústrias: Telecommunciations
+propriedade: privada
+
+12. MCDONALD´S
+38897 empregados
+www.mcdonalds.com.br
+Indústrias: Hospitality // Food and Beverage Service
+propriedade: privada
+
+13. LOSANGO PROMOÇÕES DE VENDAS
+1082 empregados
+www.losango.com.br
+Indústrias: Retail
+propriedade: privada
+
+14. DELL BRASIL
+3472 empregados
+www.dell.com.br
+Indústrias: Information Technology
+propriedade: privada
+
+15. MAN LATIN AMERICA
+1245 empregados
+www.man-la.com
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+16. VOLVO DO BRASIL
+4044 empregados
+www.volvo.com.br
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+17. JOHN DEERE BRASIL
+5000 empregados
+www.johndeere.com.br
+Indústrias: Manufacturing & Production // Machinery and equipment
+propriedade: privada
+
+18. CEMAR
+1203 empregados
+www.cemar116.com.br
+Indústrias: Industrial Services
+propriedade: privada
+
+19. MARS
+1855 empregados
+www.mars.com.br
+Indústrias: Manufacturing & Production // Food products
+propriedade: privada
+
+20. ASTRAZENECA DO BRASIL
+1108 empregados
+www.astrazeneca.com
+Indústrias: Biotechnology & Pharmaceuticals // Pharmaceuticals
+propriedade: privada
+
+3CORAÇÕES
+4538 empregados
+www.3coracoes.com.br
+Indústrias: Manufacturing & Production // Food products
+propriedade: privada
+
+3M DO BRASIL
+4082 empregados
+www.3m.com.br
+Indústrias: Manufacturing & Production // Chemicals
+propriedade: privada
+
+ALGAR TELECOM
+3600 empregados
+www.algartelecom.com.br
+Indústrias: Telecommunciations
+propriedade: privada
+
+AMBEV
+31702 empregados
+www.ambev.com.br
+Indústrias: Manufacturing & Production // Food products / Beverages
+propriedade: privada
+
+ANCAR IVANHOE
+4289 empregados
+www.ancarivanhoe.com.br
+Indústrias: Retail
+propriedade: privada
+
+ANGLO AMERICAN
+1348 empregados
+www.angloamerican.com.br
+Indústrias: Mining and Quarryng
+propriedade: privada
+
+APETIT SERVIÇOS DE ALIMENTAÇÃO
+1657 empregados
+www.apetit.com.br
+Indústrias: Hospitality // Food and Beverage Service
+propriedade: privada
+
+ATENTO BRASIL
+84960 empregados
+www.atento.com.br
+Indústrias: Professional Services  // Business Process Outsourcing / Call centers
+propriedade: privada
+
+BANCO BRADESCO
+83424 empregados
+www.bradesco.com.br
+Indústrias: Financial Services & Insurance // Banking/Credit  Services
+propriedade: privada
+
+BANCO MERCANTIL DO BRASIL
+3316 empregados
+www.mercantildobrasil.com.br
+Indústrias: Financial Services & Insurance // Banking/Credit  Services
+propriedade: privada
+
+BRASIL KIRIN INDÚSTRIA DE BEBIDAS
+11490 empregados
+www.brasilkirin.com.br
+Indústrias: Manufacturing & Production // Food products / Beverages
+propriedade: privada
+
+BRASILATA S/A EMBALAGENS METALICAS
+1040 empregados
+www.brasilata.com.br
+Indústrias: Manufacturing & Production // Basic metals and fabricated metal products
+propriedade: privada
+
+CENTRO UNIVERSITÁRIO UNA
+1773 empregados
+www.una.br
+Indústrias: Education & Training
+propriedade: privada
+
+CI&T
+1293 empregados
+www.ciandt.com/br-pt
+Indústrias: Information Technology
+propriedade: privada
+
+CLAMED
+3715 empregados
+www.clamed.com.br
+Indústrias: Retail // Specialty
+propriedade: privada
+
+COELCE
+1203 empregados
+www.coelce.com.br
+Indústrias: Manufacturing & Production // Energy Distribution
+propriedade: privada
+
+COMPLEXO HOSPITALAR EDMUNDO VASCONCELOS
+1020 empregados
+www.hpev.com.br
+Indústrias: Health Care // Hospital
+propriedade: Non-profit
+
+CONSÓRCIO NACIONAL EMBRACON
+2116 empregados
+www.embracon.com.br
+Indústrias: Financial Services & Insurance // Banking/Credit  Services
+propriedade: privada
+
+COPAGAZ
+1714 empregados
+www.copagaz.com.br
+Indústrias: Manufacturing & Production // Coke, refined petroleum products and nuclear fuel
+propriedade: privada
+
+CULTURA INGLESA RJ, ES, DF,RS,GO
+1549 empregados
+www.culturainglesa.net
+Indústrias: Education & Training
+propriedade: privada
+
+DSM
+1153 empregados
+www.dsm.com
+Indústrias: Manufacturing & Production // Food products
+propriedade: privada
+
+DUDALINA
+2121 empregados
+www.dudalina.com.br
+Indústrias: Manufacturing & Production // Textiles and textile products
+propriedade: privada
+
+EUROFARMA
+4138 empregados
+www.eurofarma.com.br/
+Indústrias: Biotechnology & Pharmaceuticals
+propriedade: privada
+
+GRUPO RIO QUENTE
+2090 empregados
+www.rioquenteresosrts.com.br
+Indústrias: Hospitality // Hotel/Resort
+propriedade: privada
+
+GRUPO SAGA
+3004 empregados
+www.saganet.com.br
+Indústrias: Retail
+propriedade: privada
+
+GRUPO SEGURADOR BANCO DO BRASIL E MAPFRE
+6619 empregados
+www.bbmapfre.com.br
+Indústrias: Financial Services & Insurance
+propriedade: privada
+
+GVT
+17597 empregados
+www.gvt.com.br
+Indústrias: Telecommunciations
+propriedade: privada
+
+INTELBRAS
+1648 empregados
+www.intelbras.com.br
+Indústrias: Manufacturing & Production // Electronics
+propriedade: privada
+
+ITAU UNIBANCO
+83590 empregados
+www.itau.com.br
+Indústrias: Financial Services & Insurance // Banking/Credit  Services
+propriedade: privada
+
+LEROY MERLIN
+7000 empregados
+www.leroymerlin.com.br
+Indústrias: Retail
+propriedade: privada
+
+LOJAS MM
+2897 empregados
+www.grupomercadomoveis.com.br
+Indústrias: Retail
+propriedade: privada
+
+MERCADINHOS SÃO LUIZ
+1627 empregados
+www.mercadinhossaoluiz.com.br
+Indústrias: Retail // Food/Grocery
+propriedade: privada
+
+MONDELEZ INTERNACIONAL
+12403 empregados
+www.mondelezinternational.com.br
+Indústrias: Manufacturing & Production // Food products
+propriedade: privada
+
+MOTO HONDA DA AMAZÔNIA
+10350 empregados
+www.honda.com.br
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+NAVISTAR MERCOSUL
+3251 empregados
+www.mwm-international.com.br
+Indústrias: Manufacturing & Production // Automotive
+propriedade: privada
+
+NOVARTIS BIOCIÊNCIAS
+1351 empregados
+www.novartis.com.br
+Indústrias: Biotechnology & Pharmaceuticals
+propriedade: privada
+
+ORACLE
+1625 empregados
+www.oracle.com
+Indústrias: Information Technology
+propriedade: privada
+
+OUROFINO AGRONEGÓCIO
+1388 empregados
+www.ourofino.com
+Indústrias: Biotechnology & Pharmaceuticals
+propriedade: privada
+
+P&G
+4704 empregados
+www.pg.com/pt_BR/
+Indústrias: Manufacturing & Production // Fast Moving Consumer Goods
+propriedade: privada
+
+ROCHE
+1339 empregados
+www.roche.com.br
+Indústrias: Biotechnology & Pharmaceuticals // Biotechnology
+propriedade: privada
+
+SANTANDER FINANCIAMENTOS
+2003 empregados
+www.santanderfinanciamentos.com.br
+Indústrias: Financial Services & Insurance // Banking/Credit  Services
+propriedade: privada
+
+TAKEDA
+1145 empregados
+www.takedabrasil.com
+Indústrias: Biotechnology & Pharmaceuticals // Pharmaceuticals
+propriedade: privada
+
+TELEPERFORMANCE
+14773 empregados
+www.teleperformance.com.br
+Indústrias: Professional Services  // Business Process Outsourcing / Call centers
+propriedade: privada
+
+TODIMO
+1118 empregados
+www.todimo.com.br
+Indústrias: Retail
+propriedade: privada
+
+TOKIO MARINE SEGURADORA
+1576 empregados
+www.tokiomarine.com.br
+Indústrias: Financial Services & Insurance
+propriedade: privada
+
+TOLEDO DO BRASIL
+1791 empregados
+www.toledobrasil.com.br
+Indústrias: Manufacturing & Production // Machinery and equipment
+propriedade: privada
+
+UNIBH - CENTRO UNIVERSITÁRIO DE BELO HORIZONTE
+1586 empregados
+www.unibh.br
+Indústrias: Education & Training
+propriedade: privada
+
+UNIMED-RIO
+1771 empregados
+www.unimedrio.com.br
+Indústrias: Health Care
+propriedade: Cooperative
+
+WHIRLPOOL
+15716 empregados
+www.whirlpool.com.br
+Indústrias: Manufacturing & Production // Electronics
+propriedade: privada
+
+ZEMA
+6967 empregados
+www.grupozema.com.br
+Indústrias: Retail
+propriedade: privada
