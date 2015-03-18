@@ -5,181 +5,205 @@ import java.util.List;
 
 public class Empresa {
 
-	private List<String> colocacoes;
-	private List<ListaEnum> listas;
+	private Integer melhorColocacao;
+	private List<Lista> listas;
 	private String nome;
 	private String site;
 	private String empregados;
 	private String industria;
+	private String detalhe;
 	private String propriedade;
-	private Integer votos;
-	private Boolean entreAs10Melhores;
-	private Boolean entreAs20Melhores;
-	private Boolean entreAs30Melhores;
+	private Integer pontos;
+	private List<String> paises;
 
 	public Empresa() {
-		this.colocacoes = new ArrayList<>();
-		this.votos = 1;
+		this.melhorColocacao = null;
 		this.listas = new ArrayList<>();
-		this.entreAs10Melhores = false;
-		this.entreAs20Melhores = false;
-		this.entreAs30Melhores = false;
-	}
-
-	public Boolean getEntreAs20Melhores() {
-		return entreAs20Melhores;
-	}
-
-	public void setEntreAs20Melhores(Boolean entreAs20Melhores) {
-		this.entreAs20Melhores = entreAs20Melhores;
-	}
-
-	public Boolean getEntreAs30Melhores() {
-		return entreAs30Melhores;
-	}
-
-	public void setEntreAs30Melhores(Boolean entreAs30Melhores) {
-		this.entreAs30Melhores = entreAs30Melhores;
-	}
-
-	public Boolean getEntreAs10Melhores() {
-		return entreAs10Melhores;
-	}
-
-	public void setEntreAs10Melhores(Boolean entreAs10Melhores) {
-		this.entreAs10Melhores = entreAs10Melhores;
-	}
-
-	public List<String> getColocacoes() {
-		return colocacoes;
-	}
-
-	public void setColocacoes(List<String> colocacoes) {
-		this.colocacoes = colocacoes;
+		this.nome = null;
+		this.site = null;
+		this.empregados = null;
+		this.industria = null;
+		this.detalhe = null;
+		this.propriedade = null;
+		this.pontos = 0;
+		this.paises = new ArrayList<String>();
 	}
 	
-	public List<ListaEnum> getListas() {
-		return listas;
+	
+	/*
+	 * GET
+	 */
+	public List<String> getPaises() {
+		return paises;
 	}
 
-	public void setListas(List<ListaEnum> listas) {
-		this.listas = listas;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getSite() {
-		return site;
-	}
-
-	public void setSite(String site) {
-		this.site = site;
-	}
-
-	public String getEmpregados() {
-		return empregados;
-	}
-
-	public void setEmpregados(String empregados) {
-		this.empregados = empregados;
+	public Integer getMelhorColocacao() {
+		return melhorColocacao;
 	}
 
 	public String getIndustria() {
 		return industria;
 	}
 
-	public void setIndustria(String industria) {
-		this.industria = industria;
+	public List<Lista> getListas() {
+		return listas;
 	}
 
-	public String getPropriedade() {
-		return propriedade;
+	public String getSite() {
+		return site;
+	}
+
+	/*
+	 * EXTRACT
+	 */
+	public Integer getColocacao(String readLine) {
+		Integer colocacao = null;
+		String[] split = readLine.split("\\.");
+		if (split.length > 1){
+			colocacao = new Integer(split[0].trim());
+		}
+		return colocacao;
+	}
+
+	/*
+	 * SET
+	 */
+	public void setNome(String readLine) {
+		String[] split = readLine.split("\\.");
+		if (split.length > 1){
+			this.nome = split[1].trim();
+		} else {
+			this.nome = split[0].trim();
+		}
+	}
+
+	public void setSite(String site) {
+		String[] split = site.split("\\//");
+		if (split.length > 1){
+			site = split[1];
+		}
+		split = site.split("\\/");
+		if (split.length > 1){
+			site = split[0];
+		}
+		this.site = site.trim();
+	}
+
+	public void setEmpregados(String empregados) {
+		this.empregados = empregados.replace("empregados", "").trim();
+	}
+
+	public void setIndustria(String industria, Boolean padrao) {
+		if (padrao){
+			industria = industria.replace("Indústrias:", "");
+			String[] split = industria.split("\\//");
+			this.industria = split[0].trim();
+			if (split.length > 1){
+				this.detalhe = split[1].trim();
+			}
+		} else {
+			industria = industria.replace("Setor:", "");
+			String[] split = industria.split("\\|");
+			this.industria = split[0].trim();
+			if (split.length > 1){
+				this.detalhe = split[1].trim();
+			}
+		}
 	}
 
 	public void setPropriedade(String propriedade) {
-		this.propriedade = propriedade;
+		this.propriedade = propriedade.replace("propriedade:", "").trim();
 	}
 
-	public Integer getVotos() {
-		return votos;
+	public void setMelhorColocacao(Integer melhorColocacao) {
+		this.melhorColocacao = melhorColocacao;
 	}
 
-	public void setVotos(Integer votos) {
-		this.votos = votos;
-	}
-
-	public void addColocacao(String colocacao) {
-		this.colocacoes.add(colocacao);
-		if (new Integer(colocacao) < 11){
-			this.entreAs10Melhores = true;
-		} else if (new Integer(colocacao) < 21){
-			this.entreAs20Melhores = true;
-		} else if (new Integer(colocacao) < 31){
-			this.entreAs30Melhores = true;
+	/*
+	 * ADD
+	 */
+	public void addListas(List<Lista> listas) {
+		for (Lista lista : listas){
+			this.addLista(lista.getLista(), lista.getColocacao());
 		}
 	}
 	
-	public void addListas(List<ListaEnum> listas) {
-		for (ListaEnum lista : listas) {
-			if (!this.listas.contains(lista)){
-				this.listas.add(lista);
+	public void addLista(ListaEnum lista, Integer colocacao){
+		if (!this.listas.contains(lista)){
+			this.listas.add(new Lista(lista, colocacao));
+		}
+	}
+	
+	public void addPonto(Integer i) {
+		this.pontos += i;
+	}
+
+	public void addPaises(String readLine) {
+		readLine = readLine.replace("Listado em:", "").trim();
+		String[] split = readLine.split(",");
+		for (int i = 0; i < split.length; i+=1){
+			this.paises.add(split[i].trim());
+		}
+	}
+	
+	public void addPaises(List<String> paises){
+		for (String pais : paises){
+			if (!this.paises.contains(pais)){
+				this.paises.add(pais);
 			}
 		}
 	}
-	
-	public void addLista(ListaEnum lista) {
-		if (!this.listas.contains(lista)){
-			this.listas.add(lista);
-		}
-	}
-	
-	public void addVoto() {
-		this.votos += 1;
-	}
 
+	/*
+	 * EXTRA
+	 */
 	public String imprimir() {
 		StringBuilder stringBuilder = new StringBuilder();
 		boolean b = false;
-		for (String colocacao : this.colocacoes) {
-			if (b) {
-				stringBuilder.append(",");
-			}
-			b = true;
-			stringBuilder.append(colocacao);
-		}
+		stringBuilder.append((this.melhorColocacao != null)?this.melhorColocacao:"");
 		stringBuilder.append(";");
 		b = false;
-		for (ListaEnum lista : this.listas) {
+		for (Lista lista : this.listas) {
 			if (b) {
-				stringBuilder.append(",");
+				stringBuilder.append(", ");
 			}
 			b = true;
-			stringBuilder.append(lista.getNome());
+			stringBuilder.append(lista.getLista().getNome());
+			if (lista.getColocacao() != null){
+				stringBuilder.append(" [");
+				stringBuilder.append(lista.getColocacao());
+				stringBuilder.append("]");
+			}
 		}
 		stringBuilder.append(";");
-		stringBuilder.append(this.votos);
+		stringBuilder.append(this.pontos);
 		stringBuilder.append(";");
-		stringBuilder.append((this.entreAs10Melhores)?"Sim":"Nao");
+		stringBuilder.append((this.melhorColocacao != null && this.melhorColocacao < 11)?"Sim":"Nao");
 		stringBuilder.append(";");
-		stringBuilder.append((this.entreAs20Melhores)?"Sim":"Nao");
+		stringBuilder.append((this.melhorColocacao != null && this.melhorColocacao < 21)?"Sim":"Nao");
 		stringBuilder.append(";");
-		stringBuilder.append((this.entreAs30Melhores)?"Sim":"Nao");
+		stringBuilder.append((this.melhorColocacao != null && this.melhorColocacao < 31)?"Sim":"Nao");
 		stringBuilder.append(";");
 		stringBuilder.append(this.nome);
 		stringBuilder.append(";");
 		stringBuilder.append(this.site);
 		stringBuilder.append(";");
-		stringBuilder.append(this.empregados);
+		stringBuilder.append((this.empregados != null)?this.empregados:"");
 		stringBuilder.append(";");
 		stringBuilder.append(this.industria);
 		stringBuilder.append(";");
-		stringBuilder.append(this.propriedade);
+		stringBuilder.append((this.detalhe != null)?this.detalhe:"");
+		stringBuilder.append(";");
+		stringBuilder.append((this.propriedade != null)?this.propriedade:"");
+		stringBuilder.append(";");
+		b = false;
+		for (String pais : this.paises) {
+			if (b) {
+				stringBuilder.append(", ");
+			}
+			b = true;
+			stringBuilder.append(pais);
+		}
 		stringBuilder.append("\n");
 		return stringBuilder.toString();
 	}

@@ -169,7 +169,7 @@ propriedade: privada
 29. CONCEPA
 457 empregados
 www.triunfoconcepa.com.br
-Indústrias:Professional Services
+Indústrias: Professional Services
 propriedade: privada
 
 30. UNIRITTER

@@ -2,44 +2,40 @@ package melhores;
 
 public enum ListaEnum {
 
-	BR_GRANDES("Brasil-Grande", "arquivos/2014GPTW-Brasil-Grandes.txt", 20),
-	BR_MEDIAS_MULTINACIONAL("Brasil-Media-Multinacional", "arquivos/2014GPTW-Brasil-MediasMultinacionais.txt", 10),
-	BR_MEDIAS_NACIONAL("Brasil-Media-Nacional", "arquivos/2014GPTW-Brasil-MediasNacionais.txt", 10),
-	RS_GRANDES("RS-Grande", "arquivos/2014GPTW-RS-Grandes.txt", 9),
-	RS_MEDIAS("RS-Media", "arquivos/2014GPTW-RS-Medias.txt", 31),
-	BR_TI("Brasil-TI", "arquivos/2014GPTW-Brasil-TI.txt", 100);
+	BR_GRANDES				(2, "Brasil-Grande",				"arquivos/2014GPTW-Brasil-Grandes.txt",					true),
+	BR_MEDIAS_MULTINACIONAL	(3, "Brasil-Media-Multinacional",	"arquivos/2014GPTW-Brasil-MediasMultinacionais.txt",	true),
+	BR_MEDIAS_NACIONAL		(1, "Brasil-Media-Nacional",		"arquivos/2014GPTW-Brasil-MediasNacionais.txt",			true),
+	RS_GRANDES				(2, "RS-Grande",					"arquivos/2014GPTW-RS-Grandes.txt",						true),
+	RS_MEDIAS				(1, "RS-Media",						"arquivos/2014GPTW-RS-Medias.txt",						true),
+	BR_TI					(2, "Brasil-TI",					"arquivos/2014GPTW-Brasil-TI.txt",						true),
+	MUNDO_MULTINACIONAL		(3, "Mundo-Multinacional",			"arquivos/2014GPTW-Mundo-Multinacionais.txt",			false);
 
+	private Integer pontos;
 	private String nome;
 	private String arquivo;
-	private Integer colocacoes;
+	private Boolean layoutDefault;
 
-	private ListaEnum(String nome, String arquivo, Integer colocacoes) {
+	private ListaEnum(Integer pontos, String nome, String arquivo, Boolean layoutDefault) {
+		this.pontos = pontos;
 		this.nome = nome;
 		this.arquivo = arquivo;
-		this.colocacoes = colocacoes;
+		this.layoutDefault = layoutDefault;
+	}
+	
+	public Boolean getLayoutDefault() {
+		return layoutDefault;
 	}
 
 	public String getArquivo() {
 		return arquivo;
 	}
 
-	public void setArquivo(String arquivo) {
-		this.arquivo = arquivo;
-	}
-
 	public String getNome() {
 		return nome;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	
-	public Integer getColocacoes() {
-		return colocacoes;
+	public Integer getPontos() {
+		return this.pontos;
 	}
 
-	public void setColocacoes(Integer colocacoes) {
-		this.colocacoes = colocacoes;
-	}
 }
